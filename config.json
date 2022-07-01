@@ -1,0 +1,80 @@
+{
+  "networks": {
+    "ether": {
+      "chainId": 1,
+      "url": "https://mainnet.infura.io/v3/58db63a2aab944e6a01347ea77f15c3d",
+      "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+      "factory": "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f",
+      "weth": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    "ropsten": {
+      "chainId": 3,
+      "url": "https://ropsten.infura.io/v3/58db63a2aab944e6a01347ea77f15c3d",
+      "router": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+      "factory": "??",
+      "weth": "0xc778417e063141139fce010982780140aa0cd5ab",
+      "claimer": "0xBC2871DF1eF6c22f2CeB50EeB4eFA75c2E5849Ad",
+      "claimedDpn": "0x635f84B104b122197661d8847E45C982a8e613A3"
+    },
+    "rinkeby": {
+      "chainId": 4,
+      "url": "https://rinkeby.infura.io/v3/58db63a2aab944e6a01347ea77f15c3d",
+      "router": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+      "factory": "??",
+      "weth": "0xc778417e063141139fce010982780140aa0cd5ab",
+      "GLDM_NFT": "0x347D89CD8c0842600Ba1337C48D6d7319E25b787",
+      "gldmNft": "0x71Da84Fcf577c362Ccb86D608a5AA512B3A6AA1f"
+    },
+    "bsc": {
+      "chainId": 56,
+      "url": "https://bsc-dataseed1.ninicoin.io",
+      "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+    },
+    "bsc_test": {
+      "chainId": 97,
+      "url": "https://data-seed-prebsc-1-s1.binance.org:8545/",
+      "router": "0x1Ed675D5e63314B760162A3D1Cae1803DCFC87C7",
+      "factory": "0x41939fe2547f3140b90e056fb42af81d423435ad",
+      "weth": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+      "claimer": "0xb04210E6d60ACdC4716b9d3A4c7aFa3dD91cA4Ea",
+      "opensea": "0x33d5ED4CB4f191117E21D8a17BC455B83801dE35",
+      "claimedDpn": "0xb3534c118cA420e4F5C7C5F67958CDF638f37D36",
+      "dpnPhys": "0x095eB138d3Fa092991a4CF3CB32fdc47713D66D0"
+    },
+    "fuji": {
+      "chainId": 43113,
+      "url": "https://api.avax-test.network/ext/bc/C/rpc",
+      "router": "0x7E3411B04766089cFaa52DB688855356A12f05D1",
+      "weth": "0xd00ae08403B9bbb9124bB305C09058E32C39A48c",
+      "claimedDpn": "0xaA7180D7CEa1429fAdEF08594cA9d14839287502",
+      "claimer": "0xDd886181776c2954a3e0011f8a5d79B8d2d2864f",
+      "opensea": "0xd83d2138653e0dd6711D9b577e658c0bC2C902a7",
+      "dpnPhys": "0x29b3834370dF2c0B816dFEa0A88fAF1765dE2291"
+    },
+    "mumbai": {
+      "chainId": 80001,
+      "url": "https://matic-mumbai.chainstacklabs.com",
+      "opensea": "0x2ca1C15a2a4fa763ee555d8048CbBb3b3327B246",
+      "claimedDpn": "0x93252F0c37939026538849c747e45cDCbEbFb499",
+      "dpnPhys": "0x42dd288a5FDf8D3384F6C237BeADA9Fd69A6EC3a",
+      "claimer": "0x3133a2eA8fB01DEBad0B9ed51D5966D260e5dd63",
+      "gldmNft": "0xa62B7DE4E32131772A171A8767B06C39eEC5eE40"
+    },
+    "kovan": {
+      "chainId": 42,
+      "url": "https://kovan.infura.io/v3/"
+    },
+    "development": {
+      "chainId": 539,
+      "url": "http://localhost:8545",
+      "claimer": "0xEB0A54944a2A13D247678629669b6ec982452d19",
+      "dpnPhys": "0xEFb41492A18F0F022F09862C717C1ec2d2d999a8"
+    },
+    "target": "bsc_test"
+  },
+  "wallet": {
+    "buyback": "0xcf5605394355Eb418C46e51C5E3c0c2Fdc2d5452",
+    "treasury": "0x85048aae2FCc6877cA379e2dfDD61ea208Fa076C",
+    "charity": "0x2659A32AAbc44256337b324041969f06b943b477"
+  }
+}

@@ -1,0 +1,7 @@
+Those are the NFTs, so 40 GLDM(GoldMint) tokens will be distributed between the NFTs
+
+There will be 2 batches of 75 NFTs with the following tiers and quantities:
+- 2x Epic - Treasure chest- 2.5 GLDM in the tier
+- 8 x Super Rare - Bar - 1 GLDM in the tier
+- 25 x Rare - Sack - Contains 0.2 GLDM in the tier
+- Common - Coins - 0.1 GLDM in the tier
